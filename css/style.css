@@ -1,0 +1,59 @@
+* {
+	margin:0;
+	padding:0;
+	}
+.container{
+	width: 1100px;
+	margin:0 auto;
+}
+.header{
+	width: 100%;
+	background: url('../images/bg-head.gif') ;
+	background-repeat: no-repeat;
+	
+	height: 100px;
+	overflow: hidden;
+	
+}
+.header .logo{
+	padding: 10px;
+	float: left;
+	
+}
+.header .lang{
+	top: 2px;
+
+}
+.header .lang .lang-con{
+	float: right;
+	padding: 5px;
+	color: white;
+	right: 0px
+}
+.menu{
+	background: #20abb3;
+	width: 100%;
+	
+}
+.menu ul{
+	list-style-type: none;
+	border-bottom: 10px solid #414141;
+
+}
+.menu ul li{
+	display: inline-block;
+	line-height: 50px;
+	
+	width: 100px;
+}
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+.menu ul li a:hover{
+	background: #f8e7a3;
+}
+.banner{
+	width: 100%;
+}
