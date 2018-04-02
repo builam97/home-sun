@@ -108,6 +108,10 @@ main{
 	display: inline-block;
 
 }
+.main .container .content .infor .infor_left button{
+	background-color: #1b9097;
+	border:1px solid #1b9097;
+}
 
 .main .container .content .infor .infor_right{
 	float: left;
@@ -171,12 +175,7 @@ main{
 
 	
 }
-.main .container .content .service .product .pro .shadow .caption .circle{
-	border-radius: 100%;
-	background: #cab04e;
-	float: left;
 
-}
 
 
 
