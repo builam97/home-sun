@@ -1,6 +1,7 @@
 * {
 	margin:0;
 	padding:0;
+	box-sizing: border-box;
 	}
 .container{
 	width: 1100px;
@@ -8,7 +9,7 @@
 }
 .header{
 	width: 100%;
-	background: url('../images/bg-head.gif') ;
+	background: url('../images/bg-head.gif') center center /cover ;
 	background-repeat: no-repeat;
 	
 	height: 100px;
@@ -57,3 +58,126 @@
 .banner{
 	width: 100%;
 }
+.banner img{
+	width: 100%;
+	height: 400px;
+}
+main{
+	
+	width: 100%;
+	height: 1000px;
+}
+.main{
+	 background:
+	 
+		url('../images/bg.gif') center center /cover
+	;
+	width: 100%;
+	
+
+}
+.main .container .content{
+	background: 
+		url('../images/icon-bg1.png') no-repeat ,
+		 url('../images/icon-bg2.png') no-repeat top right,
+	 	url('../images/icon-bg3.png') no-repeat bottom left,
+	 	url('../images/icon-bg4.png') no-repeat bottom right;
+	 width: 100%;
+	
+
+}
+.main .container .content .infor{
+	
+	overflow: hidden;
+	width: 100%;
+	padding: 50px;
+
+}
+.main .container .content .infor .infor_left{
+	float: left;
+	width: 50%;
+	padding: 10px;
+	height: 100%;
+}
+.main .container .content .infor .infor_left h2{
+	color:#08a097;
+}
+.main .container .content .infor .infor_left .btn{
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+
+}
+
+.main .container .content .infor .infor_right{
+	float: left;
+	width: 50%;
+
+	padding: 10px;
+}
+.main .container .content .infor .infor_right img{
+	
+	width: 100%;
+	height: 100%;
+}
+.main .container .content .service{
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+.main .container .content .service .title {}
+.main .container .content .service .title .services{
+	background: url('../images/icon-text-l.png') no-repeat 30% 50%
+	,url('../images/icon-text-r.png') no-repeat 70% 50%;
+
+}
+.main .container .content .service .title .title-bot{
+	background: url('../images/icon-bot.png') no-repeat center center;
+	width: 100%;
+	height: 50px;
+}
+.main .container .content .service .product{
+	width: 100%;
+	overflow: hidden;
+	padding: 50px;
+}
+.main .container .content .service .product .pro{
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+}
+.main .container .content .service .product .pro img{
+	width: 100%;
+}
+.main .container .content .service .product .pro .shadow{
+	box-shadow: 6px 2px 10px 7px #000
+}
+
+.main .container .content .service .product .pro .shadow .caption{
+	text-align: center;
+	padding: 15px;
+	background: linear-gradient(#116469,#05191b);
+	overflow: hidden;
+}
+.main .container .content .service .product .pro .shadow .caption a {
+	border-radius: 5px;
+	background: #f8e7a3;
+	text-decoration: none;
+	width: 100px;
+	display: inline-block;
+	text-align: left;
+	padding-left: 10px;
+	
+
+	
+}
+.main .container .content .service .product .pro .shadow .caption .circle{
+	border-radius: 100%;
+	background: #cab04e;
+	float: left;
+
+}
+
+
+
+
